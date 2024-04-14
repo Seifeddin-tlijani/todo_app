@@ -32,12 +32,10 @@ Before running the application, ensure you have the following installed:
 2. Navigate to the project directory.
 3. Install dependencies by running:
    
-     ```bash
 npm install
 
 4. Start the server:
 
-   ```bash
 npm start
 
 ### Running with Docker
@@ -45,12 +43,10 @@ npm start
 1. Ensure Docker is installed on your system.
 2. Build the Docker image:
 
-   ```bash
 docker build -t todo-list-app .
 
 3. Run the Docker container:
 
-   ```bash
 docker run -p 3000:3000 --name todo-list-container todo-list-app
 
 4. The application will be accessible at `http://localhost:3000`.
