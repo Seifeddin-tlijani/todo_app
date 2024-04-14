@@ -3,12 +3,11 @@ const express = require('express');
 const mongoose = require('mongoose');
 const taskRoutes = require('./routes/taskRoutes');
 
-const cors = require('cors'); // Import the cors module
+const cors = require('cors'); 
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Enable CORS
 app.use(cors());
 
 // Middleware
